@@ -1,0 +1,48 @@
+
+
+.card {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.70);
+    height: 135px;
+    width: 280px;
+    position: relative;
+    margin-right: 72px;
+    margin-top: 45px;
+    &__title {
+        margin-top: 18px;
+        color: rgba(0, 0, 0, 0.90);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__text {
+        margin-top: 18px;
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        margin-left: 10px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &:nth-child(3) {
+        margin-right: 0px;
+    }
+    &:nth-child(6) {
+        margin-right: 0px;
+    }
+}
+
+.line {
+    position: absolute;
+    left: 0px;
+    height: 135px;
+    width: 17px;
+    border-radius: 5px 0px 0px 5px;
+    border-left: 1px solid rgba(0, 0, 0, 0.70);
+    background: #F6DDC6;
+}
